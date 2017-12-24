@@ -12,13 +12,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ROUTES } from './app.routing';
 import { PredictComponent } from './predict/predict.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PredictComponent
+    PredictComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
